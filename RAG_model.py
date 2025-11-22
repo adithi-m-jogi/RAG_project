@@ -1,4 +1,4 @@
-from langchain_text_splitters import RecursiveCharacterTextSplitter 
+from langchain.text_splitters import RecursiveCharacterTextSplitter 
 import os
 from langchain_community.document_loaders import PyPDFDirectoryLoader
 from langchain.chains.combine_documents import create_stuff_documents_chain
